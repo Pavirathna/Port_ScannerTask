@@ -84,7 +84,7 @@ class Model<mailId, password> extends JFrame implements ActionListener, ChangeLi
         this.settingsPanel = new JPanel(new FlowLayout());
         this.settingsPanel.setBorder(BorderFactory.createTitledBorder("Scan information"));
 
-        this.settingsPanel.setPreferredSize(new Dimension(230, 135));
+        this.settingsPanel.setPreferredSize(new Dimension(400, 400));
         this.settingsPanel.add(new JLabel("Enter Site : "));
         this.settingsPanel.add(this.site);
         this.settingsPanel.add(new JLabel("Enter Time : "));
