@@ -12,8 +12,8 @@ public class TimeScheduler {
         for(int i=0;i<3;i++) {
             TimeUnit.MINUTES.sleep ( 1 );
             DateFormat df = new SimpleDateFormat ( "dd/MM/yy HH:mm:ss" );
-            Date dateobj = new Date ();
-            System.out.println ( df.format ( dateobj ) );
+            Date dateob = new Date ();
+            System.out.println ( df.format ( dateob ) );
             SiteChecker sc=new SiteChecker ();
             sc.siteCheck ();
 
