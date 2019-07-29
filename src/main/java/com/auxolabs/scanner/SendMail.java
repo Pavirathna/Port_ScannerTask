@@ -18,7 +18,7 @@ public class SendMail {
         properties.setProperty ( "mail.smtp.user", "auxodev1234" );
         properties.setProperty ( "mail.smtp.password", "auxo1234" );
         properties.setProperty ( "mail.smtp.auth", "true" );
-        Session session = Session.getInstance ( properties, new Authenticator () {
+        Session session = Session.getInstance ( properties, new Authenticator() {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
                 System.out.println ( "Email PassWord Authenticate Successfully" );
