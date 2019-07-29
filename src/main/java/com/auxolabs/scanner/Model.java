@@ -16,6 +16,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
+import java.util.regex.Matcher;
 
 class Model<mailId, password> extends JFrame implements ActionListener, ChangeListener {
 
@@ -109,7 +110,7 @@ class Model<mailId, password> extends JFrame implements ActionListener, ChangeLi
      * Manages the button actions
      */
     public void actionPerformed(ActionEvent ae)   {
-        if (ae.getSource() == this.submit) {
+        if (ae.getSource() == this.check) {
 
             this.output.setText("Starting scan..." + System.lineSeparator());
             try {
@@ -217,10 +218,11 @@ class Model<mailId, password> extends JFrame implements ActionListener, ChangeLi
         return null;
     }
 //    public  boolean check(JTextField site){
-//        Pattern p = Pattern.compile("(http://|https://)(www.)?([a-zA-Z0-9]+).[a-zA-Z0-9]*.[a-z]{3}.?([a-z]+)?");
-//        Matcher m;
+//       Pattern p = Pattern.compile("(http://|https://)(www.)?([a-zA-Z0-9]+).[a-zA-Z0-9]*.[a-z]{3}.?([a-z]+)?");
+//      Matcher m;
 //        m=p.matcher((CharSequence) site);
-//        retu;
+//        boolean matches = matcher.matches();
+//       return matches;
 //    }
 
 

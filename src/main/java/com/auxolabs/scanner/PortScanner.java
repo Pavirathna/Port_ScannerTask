@@ -36,7 +36,7 @@ class PortScanner extends JFrame implements ActionListener, ChangeListener {
         initComponents();
 
         super.setLayout(new FlowLayout());
-        super.setSize(600, 700);
+        super.setSize(500, 300);
         super.setLocationRelativeTo(null);
         super.setResizable(false);
         super.setVisible(true);

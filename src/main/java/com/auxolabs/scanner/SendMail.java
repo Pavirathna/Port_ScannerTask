@@ -6,6 +6,7 @@ import javax.mail.internet.MimeMessage;
 import java.util.Properties;
 
 public class SendMail {
+    SendMail sendMail=new SendMail ();
     public static void sendMail() throws MessagingException {
         String recepient = "auxodev1234@gmail.com";
         Properties properties = new Properties ();

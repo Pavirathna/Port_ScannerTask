@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="PortScannerTask" />
         <module name="Scanner_Port_Checker" />
+        <module name="Port_ScannerTask" />
+        <module name="PortScannerTask" />
       </profile>
     </annotationProcessing>
   </component>
